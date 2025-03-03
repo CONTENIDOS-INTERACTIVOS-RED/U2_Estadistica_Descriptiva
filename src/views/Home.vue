@@ -22,11 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              p.descripcion.mb-4 Desde el inicio del análisis estadístico, entender la variabilidad de los datos ha sido crucial para interpretar correctamente la información. En esta unidad, se explorarán las medidas de dispersión y asimetría, herramientas fundamentales que permiten cuantificar la variabilidad y la forma de distribución de los datos. A través de ejemplos prácticos y aplicaciones reales, aprenderás a utilizar conceptos como el rango, la varianza, la desviación estándar, el coeficiente de variación y los coeficientes de asimetría, esenciales para la toma de decisiones informadas en diversos campos profesionales.
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p #[b ¡Prepárese para profundizar en estas herramientas estadísticas y aplicarlas con eficacia!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
