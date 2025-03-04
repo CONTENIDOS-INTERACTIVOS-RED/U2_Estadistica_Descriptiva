@@ -75,13 +75,14 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Medidas de asimetría',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Coeficientes de asimetría con respecto a la moda y mediana',
             hash: 't_3_1',
           },
           {
