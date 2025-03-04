@@ -158,7 +158,7 @@
     
     p.mb-4 En el contexto empresarial, la curtosis puede ser relevante para analizar la distribución de variables como el rendimiento de un producto, el tiempo de entrega o la satisfacción del cliente. Por ejemplo, si el tiempo de entrega presenta una distribución leptocúrtica, significa que la mayoría de los pedidos se entregan en un tiempo muy cercano a la media, lo que indica un proceso consistente y predecible.
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0

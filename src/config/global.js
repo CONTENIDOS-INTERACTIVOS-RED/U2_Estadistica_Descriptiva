@@ -88,8 +88,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Representación gráfica de la asimetría',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Teorema de <em>Tchebycheff</em> y representación gráfica',
+            hash: 't_3_3',
           },
         ],
       },

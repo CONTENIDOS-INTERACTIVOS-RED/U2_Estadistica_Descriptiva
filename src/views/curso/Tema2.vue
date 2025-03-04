@@ -59,7 +59,7 @@
         figure
           img(src="@/assets/curso/tema2/6.png", data-aos="zoom-in")
     
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
@@ -110,7 +110,7 @@
               
     p.mb-4 En el contexto empresarial, la varianza se puede utilizar para evaluar la estabilidad de variables como los ingresos o los costos. Una baja varianza indica que los valores están concentrados alrededor de la media, mientras que una alta varianza sugiere una mayor dispersión y posible imprevisibilidad.
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
@@ -161,7 +161,7 @@
               
     p.mb-4 En el ámbito empresarial, la desviación estándar se utiliza para medir la volatilidad de variables financieras como precios de acciones, tasas de cambio o rendimientos de inversión. Una alta desviación estándar indica mayor riesgo, mientras que una baja desviación estándar sugiere estabilidad.
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
@@ -201,7 +201,7 @@
               
     p.mb-4 En el contexto empresarial, el coeficiente de variación se puede utilizar para comparar la estabilidad de diferentes líneas de productos, segmentos de mercado o períodos de tiempo. Un menor coeficiente de variación indica una mayor homogeneidad entre las observaciones, mientras que un mayor coeficiente de variación sugiere una mayor heterogeneidad.
 
-    .bg-full-width.bg-color-7.mb-lg-5
+    .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
