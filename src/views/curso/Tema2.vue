@@ -265,15 +265,25 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://www.hiru.eus/es/matematicas/medidas-de-dispersion" target="_blank" rel="noopener noreferrer") Universidad del País Vasco. (n.d.). Medidas de dispersión. Hiru.eus.  
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://economipedia.com/definiciones/medidas-de-dispersion.html" target="_blank" rel="noopener noreferrer") Medidas de dispersión: Qué son, para qué sirven y fórmulas. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://datatab.es/statistics-calculator/charts/create-histogram" target="_blank" rel="noopener noreferrer") DataTab. (n.d.). Statistics calculator: Create histogram. DataTab. 
+
+           
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/iXpIHFSPlwE" target="_blank" rel="noopener noreferrer") Interiano, S. (2020, 9 de junio). Medidas de dispersión [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/X3x4zCfFQJU " target="_blank" rel="noopener noreferrer") Narváez, L. (2020, 14 de septiembre). Significado de la desviación estándar ejemplo [Video]. YouTube
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/Vg5PD7FROgo" target="_blank" rel="noopener noreferrer") Susi Profe. (2018, 20 de mayo). Varianza, desviación típica y coeficiente de variación - Estadística [Video]. YouTube
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

@@ -98,12 +98,12 @@
     p.mb-5 En los histogramas, no hay espacio entre las barras, dado que estas representan la frecuencia de valores dentro de un rango específico en el eje horizontal. Por otro lado, los diagramas de barras presentan espacios entre las barras, las cuales muestran los valores correspondientes a cada categoría.
     
     .row.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3
         figure
           img(src='@/assets/curso/tema3/6.svg', alt='').mx-auto
         
 
-      .col-lg-6
+      .col-lg-6.mb-3
         figure
           img(src='@/assets/curso/tema3/7.svg', alt='').mx-auto
         
@@ -154,10 +154,10 @@
           img(src="@/assets/curso/tema3/10.png", data-aos="zoom-in")
     
     .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-4.order-2.order-lg-1
         figure
           img(src="@/assets/curso/tema3/11.png", data-aos="zoom-in")
-      .col-lg-8
+      .col-lg-8.mb-3.mb-lg-0.order-1.order-lg-2
         .bg-color-5.p-4.mb-3(data-aos="fade-left")
           p.mb-0 La representación gráfica del teorema de Tchebycheff se puede realizar mediante la regla empírica, que muestra la proporción de observaciones dentro de 1, 2 y 3 desviaciones estándar de la media en una distribución aproximadamente normal. Según esta regla, aproximadamente el 68 % de las observaciones se encuentran dentro de una desviación estándar de la media, el 95 % dentro de dos desviaciones estándar y el 99.7 % dentro de tres desviaciones estándar.
         p(data-aos="fade-left") En el contexto empresarial, el teorema de Tchebycheff puede ser útil para establecer intervalos de confianza o límites de control en procesos de calidad. Por ejemplo, si el tiempo de ensamblaje de un producto tiene una media de 10 minutos y una desviación estándar de 2 minutos, se puede afirmar que al menos el 75 % de los tiempos de ensamblaje se encuentran entre 6 y 14 minutos (10 ± 2 • 2), sin necesidad de conocer la distribución exacta de los tiempos.
@@ -182,7 +182,7 @@
     #t_3_4.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.4] Importancia de la dispersión para evaluar riesgos y oportunidades
 
-    p.mb-4 Para conocer sobre el tema, lo invitamos a ver el siguiente video.
+    p.mb-4 Para conocer sobre el tema, lo invitamos a ver el sig.order-1uiente lg..
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -194,10 +194,10 @@
     p.mb-5 Una de las aplicaciones más importantes de las medidas de dispersión en la administración de empresas, es la evaluación de la estabilidad de los costos operativos y su relación con los márgenes de ganancia. Los costos operativos son aquellos gastos necesarios para mantener en funcionamiento un negocio, como los salarios, el alquiler, los suministros y los servicios públicos. La estabilidad de estos costos es crucial para la planificación financiera y la rentabilidad de la empresa.
 
     .row.align-items-start.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/13.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-2.order-lg-1
         AcordionA(tipo="b")
           .div(titulo="Primero")
             p Supongamos que una empresa manufacturera ha recopilado datos sobre sus costos operativos mensuales durante el último año. La media de los costos operativos es de $100,000 y la desviación estándar es de $20,000. Además, la empresa tiene un precio de venta promedio de $150 por unidad y un costo variable promedio de $80 por unidad.
@@ -283,13 +283,13 @@
     p.mb-4 Para concluir, esperamos que este repaso de las medidas de dispersión y asimetría haya sido útil para comprender su importancia en el análisis estadístico y la toma de decisiones empresariales. Recuerde que estas medidas nos brindan información valiosa sobre la variabilidad y la forma de una distribución de datos, lo que nos permite evaluar riesgos, identificar oportunidades y tomar decisiones informadas.
 
     .row.mb-5
-      .col-lg-4 
+      .col-lg-4.mb-3.mb-lg-0 
         .bg-color-5.px-4.py-5.mb-3.tarjeta(data-aos="fade-left")
           p.mb-0 La varianza y la desviación estándar nos indican cuánto se alejan los datos de la media, mientras que los coeficientes de variación nos permiten comparar la dispersión entre diferentes conjuntos de datos. Por otro lado, las medidas de asimetría, como los coeficientes de asimetría de Pearson y Bowley, nos informan sobre la dirección y el grado de asimetría de una distribución.
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/19.png', alt='')
-      .col-lg-4 
+      .col-lg-4.mb-3.mb-lg-0 
         .bg-color-1.px-4.py-5.mb-3.tarjeta(data-aos="fade-left")
           p.mb-0 En el contexto de la administración de empresas, estas medidas son fundamentales para evaluar la estabilidad de variables clave, como ingresos, costos y márgenes de ganancia. Al monitorear la dispersión de estas variables, los gerentes pueden anticipar riesgos, optimizar procesos y desarrollar estrategias efectivas para mejorar el rendimiento de la empresa.
 
@@ -323,15 +323,22 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://es.wikipedia.org/wiki/Asimetr%C3%ADa_estad%C3%ADstica" target="_blank" rel="noopener noreferrer") Asimetría estadística. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://ikusmira.org/p/medidas-de-asimetria-estadistica/" target="_blank" rel="noopener noreferrer") Medidas de asimetría estadística. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.jmp.com/es_co/statistics-knowledge-portal/exploratory-data-analysis/histogram.html" target="_blank" rel="noopener noreferrer") JMP. (n.d.). Histograma. JMP
+
+            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/DsNea5V32sM" target="_blank" rel="noopener noreferrer") Montero Espinosa (SPyB). (2018, 12 de diciembre). Coeficiente de asimetría [Video]. YouTube
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/VizbC6dsRNQ" target="_blank" rel="noopener noreferrer") Dirección Innovación Educativa UNAH. (2019, 8 de noviembre). Uso del Excel para graficar un diagrama de dispersión y calcular el coeficiente de Pearson [Video]. YouTube
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -357,156 +364,159 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+            texto: '¿Qué mide la varianza en un conjunto de datos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'La tendencia central',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'La dispersión de los datos respecto a la media',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'El dato más frecuente',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'El valor máximo menos el mínimo',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La varianza mide qué tan dispersos están los datos con respecto a la media; un valor mayor indica más dispersión.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            texto: '¿Cómo se obtiene la varianza de una muestra?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto:
+                  'Sumando los datos y dividiéndolos por la cantidad total',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'Restando el dato menor al mayor',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
+                texto:
+                  'Elevando al cuadrado las desviaciones de la media y sacando el promedio',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Multiplicando los valores por la media',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La varianza se calcula como el promedio de los cuadrados de las diferencias entre cada dato y la media.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: '¿Qué indica una alta dispersión en un conjunto de datos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Que los datos están muy cercanos a la media',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Que los datos están muy alejados entre sí',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Que la media es alta',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Que no hay datos negativos',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Una alta dispersión significa que los valores son muy distintos entre sí, lo que indica mayor variabilidad.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto: '¿Cuál de las siguientes NO es una medida de dispersión?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Rango',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Moda',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Varianza',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Desviación estándar',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La moda es una medida de tendencia central, no de dispersión.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Qué mide la asimetría en un conjunto de datos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'La forma de la distribución',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'La dispersión de los datos',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'La cantidad de datos',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'La tendencia central',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La asimetría indica si los datos están distribuidos de manera equilibrada o si están sesgados a un lado.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],

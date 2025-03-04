@@ -39,7 +39,7 @@
             p Considere las ventas mensuales de dos tiendas: la tienda A con ventas de $100, $200, $300, $400 y $500, y la tienda B con ventas de $290, $300, $310, $320 y $330. Ambas tienen una media de $300, pero la tienda A presenta una mayor variabilidad en sus ventas.
     
           .div(titulo="Ejemplo 2")
-            p Considere los siguientes datos de ventas mensuales (en miles de dólares) de dos representantes de ventas: Representante <b>A:</b> 80, 90, 85, 95, 100 Representante <b>B:</b> 70, 120, 60, 110, 90 Ambos representantes tienen una media de ventas de $90,000, pero la variabilidad de sus ventas es diferente. El representante <b>A</b>tiene ventas más consistentes alrededor de la media, mientras que las ventas del representante <b>B</b>fluctúan más ampliamente.
+            p Considere los siguientes datos de ventas mensuales (en miles de dólares) de dos representantes de ventas: Representante <b>A:</b> 80, 90, 85, 95, 100 Representante <b>B:</b> 70, 120, 60, 110, 90 Ambos representantes tienen una media de ventas de $90,000, pero la variabilidad de sus ventas es diferente. El representante <b>A</b> tiene ventas más consistentes alrededor de la media, mientras que las ventas del representante <b>B</b> fluctúan más ampliamente.
     
           .div(titulo="Ejemplo 3")
             p Suponga que una empresa fabrica dos productos: A y B. Los tiempos de producción (en minutos) de cada producto son: Producto A: 20, 22, 21, 19, 23, 20, 22, 21, 20, 22 Producto B: 15, 25, 18, 27, 14, 24, 16, 26, 17, 23 Aunque ambos productos pueden tener tiempos de producción medios similares, la variabilidad de los tiempos de producción puede diferir significativamente. Esta variabilidad puede tener implicaciones importantes para la planificación de la producción y la eficiencia de la empresa.
@@ -185,15 +185,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://blogceta.zaragoza.unam.mx/estabio/medidas-de-variabilidad/" target="_blank" rel="noopener noreferrer") Medidas de Variabilidad | Estadística en Biología (PAPIME PE206022). 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://rubenfcasal.github.io/simbook/Simulacion.pdf   " target="_blank" rel="noopener noreferrer") Casal, R. F. (2020). Técnicas de simulación y remuestreo. 
+
+            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/iXpIHFSPlwE" target="_blank" rel="noopener noreferrer") Interiano, S. (2020, 9 de junio). Medidas de dispersión [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/hOEuHf1KvTo" target="_blank" rel="noopener noreferrer") Estadística UVa. (2021, 26 de febrero). Simetría y curtosis: conceptos [Video]. YouTube.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

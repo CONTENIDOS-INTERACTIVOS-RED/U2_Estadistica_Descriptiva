@@ -6,10 +6,10 @@
     p.mb-4 En esta unidad, se explorará el mundo de las medidas de dispersión y asimetría, herramientas fundamentales en el análisis estadístico. Estas medidas le permitirán comprender y cuantificar la variabilidad de los datos y la forma en que se distribuyen, más allá de las medidas de tendencia central como la media o la mediana. Su dominio es esencial para cualquier profesional que busque tomar decisiones basadas en evidencia, en campos como la administración de empresas, la economía, las ciencias sociales y muchos otros.
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.order-1.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/intro/2.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1.order-2
         .bg-color-1.p-4.mb-3(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
