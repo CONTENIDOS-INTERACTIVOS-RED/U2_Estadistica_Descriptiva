@@ -185,10 +185,13 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://blogceta.zaragoza.unam.mx/estabio/medidas-de-variabilidad/" target="_blank" rel="noopener noreferrer") Medidas de Variabilidad | Estadística en Biología (PAPIME PE206022). 
+              a(href="https://estad-descriptiva.blogspot.com/p/medidas-de-dispersion.html" target="_blank" rel="noopener noreferrer") Arciniegas, E. Medidas de dispersión. Estadística descriptiva. [blog]
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://rubenfcasal.github.io/simbook/Simulacion.pdf   " target="_blank" rel="noopener noreferrer") Casal, R. F. (2020). Técnicas de simulación y remuestreo. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/49136?page=1" target="_blank" rel="noopener noreferrer") Romero Ramos, E. (2016). Estadística para todos: análisis de datos: estadística descriptiva, teoría de la probabilidad e inferencia: ( ed.). Difusora Larousse - Ediciones Pirámide.
 
             
 

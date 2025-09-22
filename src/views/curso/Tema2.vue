@@ -265,7 +265,8 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.hiru.eus/es/matematicas/medidas-de-dispersion" target="_blank" rel="noopener noreferrer") Universidad del País Vasco. (n.d.). Medidas de dispersión. Hiru.eus.  
+              a(href="https://repository.uaeh.edu.mx/revistas/index.php/ICSA/article/view/7115" target="_blank" rel="noopener noreferrer") Mayorga-Ponce, R. B., Reyes-Torres, S. B., Baltazar-Téllez, R. M., & Martínez-Alamilla, A. (2021). Medidas de dispersión. Educación Y Salud Boletín Científico Instituto De Ciencias De La Salud Universidad Autónoma Del Estado De Hidalgo, 9(18), 77-79.
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://economipedia.com/definiciones/medidas-de-dispersion.html" target="_blank" rel="noopener noreferrer") Medidas de dispersión: Qué son, para qué sirven y fórmulas. 

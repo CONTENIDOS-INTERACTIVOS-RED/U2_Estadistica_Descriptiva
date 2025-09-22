@@ -182,13 +182,13 @@
     #t_3_4.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.4] Importancia de la dispersión para evaluar riesgos y oportunidades
 
-    p.mb-4 Para conocer sobre el tema, lo invitamos a ver el sig.order-1uiente lg..
+    p.mb-4 Para conocer sobre el tema, lo invitamos a ver el siguiente video.
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1905" height="748" src="https://www.youtube.com/embed/aCbu1eHlc90" title="Importancia de la dispersión para evaluar riesgos y oportunidades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     h2(data-aos="fade-left") Aplicación práctica: evaluación de la estabilidad de los costos operativos y su relación con los márgenes de ganancia
     p.mb-5 Una de las aplicaciones más importantes de las medidas de dispersión en la administración de empresas, es la evaluación de la estabilidad de los costos operativos y su relación con los márgenes de ganancia. Los costos operativos son aquellos gastos necesarios para mantener en funcionamiento un negocio, como los salarios, el alquiler, los suministros y los servicios públicos. La estabilidad de estos costos es crucial para la planificación financiera y la rentabilidad de la empresa.
